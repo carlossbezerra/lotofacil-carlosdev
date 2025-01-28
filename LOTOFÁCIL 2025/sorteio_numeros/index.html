@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio de Números</title>
+    <link rel="stylesheet" href="../csss/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Sorteio de Números</h1>
+
+        <div class="input-container">
+            <label for="numeros-anteriores">Números sorteados ontem (15, separados por vírgula):</label>
+            <input type="text" id="numeros-anteriores" placeholder="Ex: 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15">
+        </div>
+
+        <button id="sortear">Sortear Números</button>
+
+        <div class="resultado">
+            <h2>Números Sorteados:</h2>
+            <ul id="lista-sorteados"></ul>
+        </div>
+
+        <div class="debug">
+            <h2>Debug:</h2>
+            <p id="debug-info"></p>
+        </div>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+
+</html>
